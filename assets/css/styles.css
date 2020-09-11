@@ -15,8 +15,9 @@ body {
 
 #title {
     text-align: center;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
 }
 
 .lead-text {
@@ -30,7 +31,13 @@ body {
 }
 
 #img-div > img {
+    border-radius: 1.3rem;
+    transition: 0.4s;
     width: 100%;
+}
+
+#img-div > img:hover {
+    transform: scale(1.1);
 }
 
 #image-caption {
