@@ -31,6 +31,7 @@ body {
 }
 
 #img-div > img {
+    box-shadow: 0 4px 25px rgba(14,36,49,.14);
     border-radius: 1.3rem;
     transition: 0.4s;
     width: 100%;
